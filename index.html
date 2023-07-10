@@ -1,4 +1,209 @@
-<p>Hello 大家好</p>
-<p>我是花木兰，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Awards</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>I am Liu Zehong</h1>
+            <h2>Reliability engineer</h2>
+            <a href="assets/resume.pdf" target="_blank" class="btn-rounded-white">Resume download</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+
+
+    <div id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img class="portrait" src="assets/portrait.jpg" alt="protrait image">
+                </div>
+                <div class="col-md-8 vertical-center">
+                    <p>
+                        Undergraduate students of Guangxi University,
+                        postgraduate of South China University of Technology,
+                        
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+
+            <!-- One Experience Block -->
+            <div data-date="Internship experience">
+                <h3>Zhongshan South China University of Technology Modern Industrial Technology Research Institute</h3>
+                <h4>Material simulation engineer</h4>
+                <p>
+                    Experimental study on heat conducting and absorbing materials;
+                    <br>
+                    Material heat conduction simulation and electromagnetic absorption simulation; 
+                    <br>
+                    Research on machine learning to predict material properties and optimization.
+                    
+                </p>
+            </div>
+            <!-- End of One Experience Block -->
+
+
+            <div data-date="Campus experience">
+                <h3>South China University of Technology</h3>
+                <h4>Minister of Academic Department</h4>
+                <p>
+                    School of Mechanical and Automotive Engineering, 
+                </p>
+                <br>
+                <h3>Guangxi University</h3>
+                <h4>Study Committee member</h4>
+                <p>
+                    College of Resources, Environment and Materials 
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Awards</h2>
+        <!-- One Education Block -->
+        <div class="education-block">
+            <h3>3</h3>
+            <h4>4</h4>
+            <p>
+                2022 South China University of Technology Excellent Postgraduate Scholarship 
+                <br>
+                2021 South China University of Technology Excellent Postgraduate Scholarship
+                <br>
+                In 2021, outstanding graduates of Guangxi Zhuang Autonomous Region won the national inspirational scholarship
+                <br>
+                in the academic year of 2019-2020.
+                In the academic year of 2019-2020, outstanding student cadres of Guangxi University won Huading Scholarship of Guangxi University 
+                in the academic year of 2018-2019.
+                <br>
+                The first prize of the 11th National Mathematics Competition for College Students, 
+                <br>
+                the second prize of outstanding students of Guangxi University in the 2018-2019 academic year.
+                First prize of outstanding students of Guangxi University in 2017-2018 academic year.
+            </p>
+        </div>
+        <!-- End of One Education Block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Putonghua level I and B.</li>
+            <li>College English Test Band 4</li>
+            <li>College English Test Band 6</li>
+            <li>National Computer Level 2 Examination</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <div id="contact-form">
+
+            <!-- One Social Icon Block -->
+            <article>
+                <i class="fa fa-envelope fa-fw"></i>
+                <span>1223123033@qq.com</span>
+            </article>
+            <!-- End of One Social Icon Block -->
+
+            <article>
+                <i class="fa fa-phone fa-fw"></i>
+                <span>13670936538</span>
+            </article>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Liu Zehong Portfolio
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
